@@ -1,0 +1,3150 @@
+{
+  "version": "FLSH Parser for CardViewer v1",
+  "name": "assets/flash/ui/live/live_notes_hold_effect.flsh",
+  "msPerFrame": 33,
+  "sounds": [],
+  "movies": [
+    {
+      "id": 1,
+      "type": "image",
+      "name": "assets/flash/ui/live/img/ef_326_003.png.imag",
+      "offX": 0,
+      "offY": 0
+    },
+    {
+      "id": 2,
+      "type": "movie",
+      "frames": [
+        {
+          "frameId": 1,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "movieId": 1,
+              "transform": {
+                "tx": -17,
+                "ty": -18
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 2,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.086,
+                "d": 1.086,
+                "b": -0.168,
+                "c": 0.168,
+                "tx": -15,
+                "ty": -22,
+                "rotation": 0.15347954821281992,
+                "sx": 1.0989176493259174,
+                "sy": 1.0989176493259176,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 3,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.14,
+                "d": 1.14,
+                "b": -0.367,
+                "c": 0.367,
+                "tx": -13,
+                "ty": -27,
+                "rotation": 0.31145252921864935,
+                "sx": 1.1976180526361482,
+                "sy": 1.1976180526361484,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 4,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.157,
+                "d": 1.157,
+                "b": -0.585,
+                "c": 0.585,
+                "tx": -9,
+                "ty": -31,
+                "rotation": 0.46813188387562216,
+                "sx": 1.2964852486627065,
+                "sy": 1.2964852486627065,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 5,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.131,
+                "d": 1.131,
+                "b": -0.818,
+                "c": 0.818,
+                "tx": -5,
+                "ty": -34,
+                "rotation": 0.6261626343533895,
+                "sx": 1.3958098007966557,
+                "sy": 1.3958098007966557,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 6,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.061,
+                "d": 1.061,
+                "b": -1.057,
+                "c": 1.057,
+                "tx": 1,
+                "ty": -37,
+                "rotation": 0.7835095915162426,
+                "sx": 1.4976548333978694,
+                "sy": 1.4976548333978692,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 7,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.285,
+                "d": 1.285,
+                "b": -0.547,
+                "c": 0.547,
+                "tx": -12,
+                "ty": -32,
+                "rotation": 0.40244726313628326,
+                "sx": 1.3965793926590782,
+                "sy": 1.3965793926590784,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 8,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.298,
+                "d": 1.298,
+                "b": -0.034,
+                "c": 0.034,
+                "tx": -21,
+                "ty": -24,
+                "rotation": 0.026188156412318225,
+                "sx": 1.2984452241045827,
+                "sy": 1.2984452241045827,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 9,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.125,
+                "d": 1.125,
+                "b": 0.411,
+                "c": -0.411,
+                "tx": -27,
+                "ty": -13,
+                "rotation": 0.35026896950820136,
+                "sx": 1.1977253441419697,
+                "sy": 1.19772534414197,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 10,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 0.818,
+                "d": 0.818,
+                "b": 0.732,
+                "c": -0.732,
+                "tx": -27,
+                "ty": -2,
+                "rotation": 0.7299711224551901,
+                "sx": 1.0977012343985042,
+                "sy": 1.0977012343985042,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 11,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 0,
+                "d": 0,
+                "b": -1,
+                "c": 1,
+                "tx": 18,
+                "ty": -17
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 12,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -0.11,
+                "d": -0.11,
+                "b": 1.094,
+                "c": -1.094,
+                "tx": -18,
+                "ty": 21,
+                "rotation": 1.6710079656580343,
+                "sx": 1.0995162572695323,
+                "sy": 1.0995162572695323,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 13,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -0.739,
+                "d": -0.739,
+                "b": 0.942,
+                "c": -0.942,
+                "tx": -5,
+                "ty": 29,
+                "rotation": 2.2360149896562316,
+                "sx": 1.1972823393001335,
+                "sy": 1.1972823393001335,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 14,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.223,
+                "d": -1.223,
+                "b": 0.434,
+                "c": -0.434,
+                "tx": 13,
+                "ty": 29,
+                "rotation": 2.8005902737575616,
+                "sx": 1.2977230058837672,
+                "sy": 1.2977230058837674,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 15,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.362,
+                "d": -1.362,
+                "b": -0.309,
+                "c": 0.309,
+                "tx": 29,
+                "ty": 19,
+                "rotation": 2.918496895999252,
+                "sx": 1.396611971880522,
+                "sy": 1.396611971880522,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 16,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.057,
+                "d": -1.057,
+                "b": -1.061,
+                "c": 1.061,
+                "tx": 37,
+                "ty": 1,
+                "rotation": 2.3543059183111392,
+                "sx": 1.4976548333978694,
+                "sy": 1.4976548333978692,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 17,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.128,
+                "d": -1.128,
+                "b": -0.822,
+                "c": 0.822,
+                "tx": 34,
+                "ty": 6,
+                "rotation": 2.51184820058113,
+                "sx": 1.3957320659782806,
+                "sy": 1.3957320659782808,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 18,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.155,
+                "d": -1.155,
+                "b": -0.59,
+                "c": 0.59,
+                "tx": 30,
+                "ty": 11,
+                "rotation": 2.669324568476851,
+                "sx": 1.2969676171747697,
+                "sy": 1.2969676171747697,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 19,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.139,
+                "d": -1.139,
+                "b": -0.371,
+                "c": 0.371,
+                "tx": 26,
+                "ty": 14,
+                "rotation": 2.8267057717676076,
+                "sx": 1.1978989940725386,
+                "sy": 1.1978989940725386,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 20,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.085,
+                "d": -1.085,
+                "b": -0.172,
+                "c": 0.172,
+                "tx": 22,
+                "ty": 17,
+                "rotation": 2.984375566804176,
+                "sx": 1.0985485879104302,
+                "sy": 1.09854858791043,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 21,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1,
+                "d": -1,
+                "b": 0,
+                "c": 0,
+                "tx": 17,
+                "ty": 18,
+                "rotation": 3.141592653589793,
+                "sx": 1,
+                "sy": 1,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 22,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.086,
+                "d": -1.086,
+                "b": 0.168,
+                "c": -0.168,
+                "tx": 15,
+                "ty": 22,
+                "rotation": 2.988113105376973,
+                "sx": 1.0989176493259174,
+                "sy": 1.0989176493259176,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 23,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.14,
+                "d": -1.14,
+                "b": 0.367,
+                "c": -0.367,
+                "tx": 13,
+                "ty": 27,
+                "rotation": 2.8301401243711437,
+                "sx": 1.1976180526361482,
+                "sy": 1.1976180526361484,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 24,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.157,
+                "d": -1.157,
+                "b": 0.585,
+                "c": -0.585,
+                "tx": 9,
+                "ty": 31,
+                "rotation": 2.673460769714171,
+                "sx": 1.2964852486627065,
+                "sy": 1.2964852486627065,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 25,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.131,
+                "d": -1.131,
+                "b": 0.818,
+                "c": -0.818,
+                "tx": 5,
+                "ty": 34,
+                "rotation": 2.515430019236404,
+                "sx": 1.3958098007966557,
+                "sy": 1.3958098007966557,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 26,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -1.061,
+                "d": -1.061,
+                "b": 1.057,
+                "c": -1.057,
+                "tx": -1,
+                "ty": 37,
+                "rotation": 2.3580830620735505,
+                "sx": 1.4976548333978694,
+                "sy": 1.4976548333978692,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 27,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -0.822,
+                "d": -0.822,
+                "b": 1.128,
+                "c": -1.128,
+                "tx": -6,
+                "ty": 34,
+                "rotation": 2.2005407798035597,
+                "sx": 1.3957320659782806,
+                "sy": 1.3957320659782808,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 28,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -0.59,
+                "d": -0.59,
+                "b": 1.155,
+                "c": -1.155,
+                "tx": -11,
+                "ty": 30,
+                "rotation": 2.043064411907839,
+                "sx": 1.2969676171747697,
+                "sy": 1.2969676171747697,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 29,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -0.371,
+                "d": -0.371,
+                "b": 1.139,
+                "c": -1.139,
+                "tx": -14,
+                "ty": 26,
+                "rotation": 1.8856832086170825,
+                "sx": 1.1978989940725386,
+                "sy": 1.1978989940725386,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 30,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": -0.172,
+                "d": -0.172,
+                "b": 1.085,
+                "c": -1.085,
+                "tx": -17,
+                "ty": 22,
+                "rotation": 1.7280134135805136,
+                "sx": 1.0985485879104302,
+                "sy": 1.09854858791043,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 31,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 0,
+                "d": 0,
+                "b": 1,
+                "c": -1,
+                "tx": -18,
+                "ty": 17
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 32,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 0.168,
+                "d": 0.168,
+                "b": 1.086,
+                "c": -1.086,
+                "tx": -22,
+                "ty": 15,
+                "rotation": 1.4173167785820764,
+                "sx": 1.0989176493259174,
+                "sy": 1.0989176493259176,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 33,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 0.367,
+                "d": 0.367,
+                "b": 1.14,
+                "c": -1.14,
+                "tx": -27,
+                "ty": 13,
+                "rotation": 1.2593437975762476,
+                "sx": 1.1976180526361482,
+                "sy": 1.1976180526361484,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 34,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 0.585,
+                "d": 0.585,
+                "b": 1.157,
+                "c": -1.157,
+                "tx": -31,
+                "ty": 9,
+                "rotation": 1.1026644429192745,
+                "sx": 1.2964852486627065,
+                "sy": 1.2964852486627065,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 35,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 0.818,
+                "d": 0.818,
+                "b": 1.131,
+                "c": -1.131,
+                "tx": -34,
+                "ty": 4,
+                "rotation": 0.944633692441507,
+                "sx": 1.3958098007966557,
+                "sy": 1.3958098007966557,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 36,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.057,
+                "d": 1.057,
+                "b": 1.061,
+                "c": -1.061,
+                "tx": -37,
+                "ty": -1,
+                "rotation": 0.7872867352786542,
+                "sx": 1.4976548333978694,
+                "sy": 1.4976548333978692,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 37,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.128,
+                "d": 1.128,
+                "b": 0.822,
+                "c": -0.822,
+                "tx": -34,
+                "ty": -6,
+                "rotation": 0.629744453008663,
+                "sx": 1.3957320659782806,
+                "sy": 1.3957320659782808,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 38,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.155,
+                "d": 1.155,
+                "b": 0.59,
+                "c": -0.59,
+                "tx": -30,
+                "ty": -11,
+                "rotation": 0.4722680851129424,
+                "sx": 1.2969676171747697,
+                "sy": 1.2969676171747697,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 39,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.139,
+                "d": 1.139,
+                "b": 0.371,
+                "c": -0.371,
+                "tx": -26,
+                "ty": -14,
+                "rotation": 0.31488688182218566,
+                "sx": 1.1978989940725386,
+                "sy": 1.1978989940725386,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 40,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1.085,
+                "d": 1.085,
+                "b": 0.172,
+                "c": -0.172,
+                "tx": -22,
+                "ty": -17,
+                "rotation": 0.15721708678561735,
+                "sx": 1.0985485879104302,
+                "sy": 1.09854858791043,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 41,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "a": 1,
+                "d": 1,
+                "b": 0,
+                "c": 0,
+                "tx": -17,
+                "ty": -18,
+                "rotation": 0,
+                "sx": 1,
+                "sy": 1,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "movie",
+      "name": "ef_326_effect",
+      "frames": [
+        {
+          "frameId": 1,
+          "label": "effect_start",
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "movieId": 2,
+              "transform": {
+                "tx": 83,
+                "ty": -23
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "movieId": 2,
+              "transform": {
+                "tx": 93,
+                "ty": -13
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 17,
+              "movieId": 2,
+              "transform": {
+                "tx": 67,
+                "ty": -21
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 19,
+              "movieId": 2,
+              "transform": {
+                "tx": 76,
+                "ty": 27
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 21,
+              "movieId": 2,
+              "transform": {
+                "tx": 55,
+                "ty": -10
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 23,
+              "movieId": 2,
+              "transform": {
+                "tx": 47,
+                "ty": -54
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 25,
+              "movieId": 2,
+              "transform": {
+                "tx": 69,
+                "ty": 34
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 27,
+              "movieId": 2,
+              "transform": {
+                "tx": 83,
+                "ty": -25
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 29,
+              "movieId": 2,
+              "transform": {
+                "tx": 43,
+                "ty": 45
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 31,
+              "movieId": 2,
+              "transform": {
+                "tx": 93,
+                "ty": 9
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 33,
+              "movieId": 2,
+              "transform": {
+                "tx": 67,
+                "ty": -3
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 35,
+              "movieId": 2,
+              "transform": {
+                "tx": 64,
+                "ty": -36
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 2,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 94,
+                "ty": -22
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.93
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "movieId": 2,
+              "transform": {
+                "tx": 63,
+                "ty": 17
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 104,
+                "ty": -12
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.93
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 3,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 104,
+                "ty": -22
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.855
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 72,
+                "ty": 16
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.93
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 114,
+                "ty": -12
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.855
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 4,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 115,
+                "ty": -21
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.785
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 80,
+                "ty": 16
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.855
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "movieId": 2,
+              "transform": {
+                "tx": 83,
+                "ty": 7
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 125,
+                "ty": -11
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.785
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "movieId": 2,
+              "transform": {
+                "tx": 73,
+                "ty": 37
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 5,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 126,
+                "ty": -20
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.715
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 89,
+                "ty": 15
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.785
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 94,
+                "ty": 6
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.93
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "movieId": 2,
+              "transform": {
+                "tx": 93,
+                "ty": -43
+              }
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 136,
+                "ty": -10
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.715
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 82,
+                "ty": 36
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.93
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "movieId": 2,
+              "transform": {
+                "tx": 93,
+                "ty": -23
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 6,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 137,
+                "ty": -19
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.645
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 97,
+                "ty": 14
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.715
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 104,
+                "ty": 6
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.855
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 99,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.93
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 147,
+                "ty": -9
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.645
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 90,
+                "ty": 36
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.855
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 99,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.93
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "movieId": 2,
+              "transform": {
+                "tx": 73,
+                "ty": -43
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 7,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 147,
+                "ty": -19
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.57
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 106,
+                "ty": 13
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.645
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 115,
+                "ty": 5
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.785
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 106,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.855
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 157,
+                "ty": -9
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.57
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 99,
+                "ty": 35
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.785
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 106,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.855
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 84,
+                "ty": -42
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.93
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 8,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 158,
+                "ty": -18
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.5
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 114,
+                "ty": 13
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.57
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 126,
+                "ty": 4
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.715
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 112,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.785
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 168,
+                "ty": -8
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.5
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 107,
+                "ty": 34
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.715
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 112,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.785
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 94,
+                "ty": -42
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.855
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 9,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 169,
+                "ty": -17
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.43
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 123,
+                "ty": 12
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.5
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 137,
+                "ty": 3
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.645
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 119,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.715
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 179,
+                "ty": -7
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.43
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 116,
+                "ty": 33
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.645
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 119,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.715
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 105,
+                "ty": -41
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.785
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 10,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 179,
+                "ty": -17
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.355
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 132,
+                "ty": 11
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.43
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 147,
+                "ty": 3
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.57
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 125,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.645
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 189,
+                "ty": -7
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.355
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 124,
+                "ty": 33
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.57
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 125,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.645
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 116,
+                "ty": -40
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.715
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 11,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 190,
+                "ty": -16
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.285
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 140,
+                "ty": 11
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.355
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 158,
+                "ty": 2
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.5
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 132,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.57
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 200,
+                "ty": -6
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.285
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 133,
+                "ty": 32
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.5
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 132,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.57
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 127,
+                "ty": -39
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.645
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 12,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 201,
+                "ty": -15
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.215
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 149,
+                "ty": 10
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.285
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 169,
+                "ty": 1
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.43
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 138,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.5
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 211,
+                "ty": -5
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.215
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 142,
+                "ty": 31
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.43
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 138,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.5
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 137,
+                "ty": -39
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.57
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 13,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 212,
+                "ty": -14
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.145
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 157,
+                "ty": 9
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.215
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 179,
+                "ty": 1
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.355
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 144,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.43
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 222,
+                "ty": -4
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.145
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 150,
+                "ty": 31
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.355
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 144,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.43
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 148,
+                "ty": -38
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.5
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 14,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 222,
+                "ty": -14
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.07
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 166,
+                "ty": 8
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.145
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 190,
+                "ty": 0
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.285
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 151,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.355
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 232,
+                "ty": -4
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.07
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 159,
+                "ty": 30
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.285
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 151,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.355
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 159,
+                "ty": -37
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.43
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 15,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "transform": {
+                "tx": 233,
+                "ty": -13
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 174,
+                "ty": 8
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.07
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 201,
+                "ty": -1
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.215
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 157,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.285
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 9,
+              "transform": {
+                "tx": 243,
+                "ty": -3
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 167,
+                "ty": 29
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.215
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 157,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.285
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 169,
+                "ty": -37
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.355
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 16,
+          "instructions": [
+            {
+              "type": "RemoveObject",
+              "layer": 1
+            },
+            {
+              "type": "RemoveObject",
+              "layer": 9
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 3,
+              "transform": {
+                "tx": 183,
+                "ty": 7
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 212,
+                "ty": -2
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.145
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 164,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.215
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 176,
+                "ty": 28
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.145
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 164,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.215
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 180,
+                "ty": -36
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.285
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 17,
+          "instructions": [
+            {
+              "type": "RemoveObject",
+              "layer": 3
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 222,
+                "ty": -2
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.07
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 170,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.145
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 184,
+                "ty": 28
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.07
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 170,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.145
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 191,
+                "ty": -35
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.215
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 18,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 5,
+              "transform": {
+                "tx": 233,
+                "ty": -3
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 177,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.07
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 11,
+              "transform": {
+                "tx": 193,
+                "ty": 27
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 177,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.07
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 202,
+                "ty": -34
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.145
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 19,
+          "instructions": [
+            {
+              "type": "RemoveObject",
+              "layer": 5
+            },
+            {
+              "type": "RemoveObject",
+              "layer": 11
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 7,
+              "transform": {
+                "tx": 183,
+                "ty": -43
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 13,
+              "transform": {
+                "tx": 183,
+                "ty": -23
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 212,
+                "ty": -34
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0.07
+              ]
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 20,
+          "label": "effect_end",
+          "instructions": [
+            {
+              "type": "RemoveObject",
+              "layer": 7
+            },
+            {
+              "type": "RemoveObject",
+              "layer": 13
+            },
+            {
+              "type": "PlaceObject",
+              "layer": 15,
+              "transform": {
+                "tx": 223,
+                "ty": -33
+              },
+              "color": [
+                1,
+                1,
+                1,
+                0
+              ]
+            },
+            {
+              "type": "NextFrame",
+              "action": "gotoAndPlay",
+              "destFrameId": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "movie",
+      "frames": [
+        {
+          "frameId": 1,
+          "instructions": [
+            {
+              "type": "PlaceObject",
+              "layer": 1,
+              "movieId": 3,
+              "transform": {
+                "a": 1,
+                "d": 1,
+                "tx": 0,
+                "ty": 0,
+                "b": 0,
+                "c": 0,
+                "rotation": 0,
+                "sx": 1,
+                "sy": 1,
+                "skew": 0
+              }
+            },
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 2,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 3,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 4,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 5,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 6,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 7,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 8,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 9,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 10,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 11,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 12,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 13,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 14,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 15,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 16,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 17,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 18,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 19,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 20,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 21,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 22,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 23,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 24,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 25,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        },
+        {
+          "frameId": 26,
+          "instructions": [
+            {
+              "type": "NextFrame"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
