@@ -91,7 +91,7 @@ Instruction Movie::makeFrameInstruction(const rapidjson::Value& instruction){
 #define D 5
 #define TX 12
 #define TY 13
-        if(instruction["transform"].HasMember("rotation"))
+        if(instruction["transform"].HasMember("a"))
         {
             
             inst.transform.m[A] = instruction["transform"]["a"].GetDouble();
@@ -123,11 +123,11 @@ Instruction Movie::makeFrameInstruction(const rapidjson::Value& instruction){
                 inst.action = Instruction::ActionType::STOP_MOVIE;
             }else if(TO_STRING(instruction["action"]) == "gotoAndPlay"){
                 inst.action = Instruction::ActionType::GOTO_AND_PLAY;
+                inst.destFrameId = instruction["destFrameId"].GetInt();
             }else {
                 inst.action = Instruction::ActionType::GOTO_AND_STOP;
+                inst.destFrameId = instruction["destFrameId"].GetInt();
             }
-            
-            inst.destFrameId = instruction["destFrameId"].GetInt();
         }
     }else if(TO_STRING(instruction["type"]) == "RemoveObject"){
         // RemoveObject
