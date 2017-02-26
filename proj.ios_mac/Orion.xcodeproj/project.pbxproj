@@ -23,7 +23,7 @@
 		2E8E753D1E60B2610042AAC7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8E75281E60B1B90042AAC7 /* XCTest.framework */; };
 		2E8E753E1E60B2610042AAC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		2E8E753F1E60B2610042AAC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		2E8E754E1E60B46A0042AAC7 /* Orion_mobile_Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E75301E60B1B90042AAC7 /* Orion_mobile_Tests.mm */; };
+		2E8E754E1E60B46A0042AAC7 /* Orion_context_Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E75301E60B1B90042AAC7 /* Orion_context_Tests.mm */; };
 		2E8E75501E61A1410042AAC7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E754F1E61A1410042AAC7 /* InfoPlist.strings */; };
 		2E8E75521E61B2920042AAC7 /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		2E8E75541E61B2AE0042AAC7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E8E75531E61B2AE0042AAC7 /* AudioToolbox.framework */; };
@@ -152,7 +152,7 @@
 		2E8E751C1E60AFAB0042AAC7 /* ef_326_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ef_326_003.png; sourceTree = "<group>"; };
 		2E8E75281E60B1B90042AAC7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2E8E752C1E60B1B90042AAC7 /* Orion-mobile Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Orion-mobile Tests-Info.plist"; sourceTree = "<group>"; };
-		2E8E75301E60B1B90042AAC7 /* Orion_mobile_Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Orion_mobile_Tests.mm; sourceTree = "<group>"; };
+		2E8E75301E60B1B90042AAC7 /* Orion_context_Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Orion_context_Tests.mm; sourceTree = "<group>"; };
 		2E8E75321E60B1B90042AAC7 /* Orion-mobile Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Orion-mobile Tests-Prefix.pch"; sourceTree = "<group>"; };
 		2E8E753C1E60B2610042AAC7 /* Orion-mobile Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Orion-mobile Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8E754F1E61A1410042AAC7 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
@@ -389,7 +389,7 @@
 		2E8E752A1E60B1B90042AAC7 /* Orion-mobile Tests */ = {
 			isa = PBXGroup;
 			children = (
-				2E8E75301E60B1B90042AAC7 /* Orion_mobile_Tests.mm */,
+				2E8E75301E60B1B90042AAC7 /* Orion_context_Tests.mm */,
 				2E8E752B1E60B1B90042AAC7 /* Supporting Files */,
 				2E8E75511E61A1E50042AAC7 /* OrionTest.h */,
 			);
@@ -679,7 +679,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E8E754E1E60B46A0042AAC7 /* Orion_mobile_Tests.mm in Sources */,
+				2E8E754E1E60B46A0042AAC7 /* Orion_context_Tests.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 //
-//  Orion_mobile_Tests.m
-//  Orion-mobile Tests
+//  Orion_context_Tests.mm
+//  Orion-context Tests
 //
 //  Created by RevLow on 2017/02/25.
 //
@@ -10,7 +10,7 @@
 #include "OrionTest.h"
 
 /*
- privateメソッドのaddFrameを呼び出すために定義
+    privateの要素を呼び出すための定義
 */
 struct MovieMakeFrame { typedef Orion::MovieContext::Instruction (Orion::MovieContext::Movie::* type)(const rapidjson::Value&); };
 struct MovieFrames { typedef std::vector<Orion::MovieContext::Frame> Orion::MovieContext::Movie::* type; };
@@ -18,11 +18,14 @@ struct MovieFrames { typedef std::vector<Orion::MovieContext::Frame> Orion::Movi
 template struct Initializer<MovieMakeFrame, &Orion::MovieContext::Movie::makeFrameInstruction>;
 template struct Initializer<MovieFrames, &Orion::MovieContext::Movie::_frames>;
 
-@interface Orion_mobile_Tests : XCTestCase
+/*
+    @brief Orion::MovieContext内のメソッド群のテスト
+ */
+@interface Orion_context_Tests : XCTestCase
 
 @end
 
-@implementation Orion_mobile_Tests
+@implementation Orion_context_Tests
 
 - (void)setUp
 {
@@ -289,5 +292,62 @@ template struct Initializer<MovieFrames, &Orion::MovieContext::Movie::_frames>;
     XCTAssertEqual((movie.*Accessor<MovieFrames>::value)[0].instructions[1].type, Orion::MovieContext::Instruction::InstructionType::   NEXT_FRAME, @"1 instruction type is NextFrame");
     XCTAssertEqual((movie.*Accessor<MovieFrames>::value)[0].label, "label", @"label is label");
 }
+
+#pragma mark - @describe Context#addFlshMovieの検証
+/*
+    @context typeがmovieのjsonを指定したとき
+    @it      moviesの最初の要素にtypeがmovieのMovieが追加されている
+ */
+-(void)testAddFlshMovie
+{
+    Orion::MovieContext::Context context;
+    const char* json = R"({"movie":
+        {
+            "id": 2,
+            "type":"movie",
+            "frames":[
+                      {"frameId":1,"instructions":[{"type":"NextFrame"}]},
+                      {"frameId":2,"instructions":[{"type":"NextFrame"}]}
+            ]
+        }
+    })";
+    rapidjson::Document d;
+    d.Parse(json);
+    rapidjson::Value& s = d["movie"];
+
+    context.addFlshMovie(s);
+    XCTAssertEqual(context.movies[0].getId(), 2, @"Movie Id");
+    XCTAssertEqual(context.movies[0].getType(), "movie", @"Movie type");
+}
+
+/*
+    @context typeがimageのjsonを指定したとき
+    @it      moviesの最初の要素にtypeがimageのMovieが追加されている
+ */
+-(void)testAddFlshMovieOfImage
+{
+    Orion::MovieContext::Context context;
+    const char* json = R"({"movie":
+        {
+            "id": 2,
+            "type":"image",
+            "name":"assets/flash/ui/live/img/img.png.imag",
+            "offX":80,
+            "offY":50
+        }
+    })";
+    rapidjson::Document d;
+    d.Parse(json);
+    rapidjson::Value& s = d["movie"];
+
+    context.addFlshMovie(s);
+    XCTAssertEqual(context.movies[0].getId(), 2, @"Movie Id");
+    XCTAssertEqual(context.movies[0].getType(), "image", @"Image type");
+    XCTAssertEqual(context.movies[0].getOffset().x, 80, @"Offset X");
+    XCTAssertEqual(context.movies[0].getOffset().y, 50, @"Offset Y");
+    XCTAssertEqual(context.movies[0].getName(), "assets/flash/ui/live/img/img.png.imag", @"Image name");
+}
+
+
 
 @end
